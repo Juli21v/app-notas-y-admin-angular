@@ -1,8 +1,12 @@
-# Proyecto Angular — Gestión de tareas y panel admin
+# App con Angular Material — tareas y administración
 
-Frontend en **Angular 13** que aplica componentes, rutas, formularios y **Angular Material** para flujos de **login**, **registro**, **tablero de tareas** y **administración** de usuarios y roles.
+Frontend en **Angular 13** con **Angular Material** para **login**, **registro**, **tablero de tareas** y **administración** de usuarios y roles. Buen ejemplo de SPA estructurada con módulos y rutas.
 
-**Autora del repositorio:** [@Juli21v](https://github.com/Juli21v)
+**Autora:** [@Juli21v](https://github.com/Juli21v)
+
+## Por qué destaca en el portafolio
+
+Muestra **SPA “tipo producto”**: formularios, listas, paneles admin y estética Material sin mezclar con el código del backend en el mismo repo — encaja bien como **pin** junto al repo full stack.
 
 ## Stack
 
@@ -52,4 +56,4 @@ ng build
 
 ## Nota
 
-Este proyecto se apoya en un backend con API REST; para una demo completa, configura la URL del API en el frontend según tu entorno.
+Este proyecto se apoya en un **backend REST** (por ejemplo el tablero full stack u otro API en el mismo puerto). La URL base está en `frontend/src/environments/environment.ts` → **`APP_URL`** (debe incluir `http://` y terminar en `/`). **Corregido:** antes faltaban los dos puntos en `http://`.
